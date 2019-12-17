@@ -1,0 +1,27 @@
+.grid {
+	display: grid;
+	grid-template: 1fr 1fr 1fr 1fr /1fr 1fr 1fr 1fr;
+	background-color:blue;
+	height:600px;
+	width:1000px;
+}
+.item1 {
+	display: grid;
+	grid-template: 50% 50%/50% 50%;
+	background-color: white;
+}
+.item1a, .item1b, .item1c, .item1d {
+	border: solid red 1px;
+}
+.item2 {
+	grid-column: 1/3;
+	grid-row: 4/4;
+	background-color: white;
+	font-size: 60px;
+}
+.item3 {
+	grid-column: 4/4;
+	grid-row: 1/5;
+	background-color:white;
+	font-size:100px;
+}
